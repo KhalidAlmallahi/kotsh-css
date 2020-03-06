@@ -1,0 +1,47 @@
+{
+    "name": "kotsh-css",
+    "description": "Kotsh is a free and very simple CSS Framework for developing responsive & modern websites.",
+    "style": "dist/css/kotsh.min.css",
+    "main": "dist/css/kotsh.min.css",
+    "sass": "src/scss/kotsh.scss",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/KhalidAlmallahi/kotsh-css"
+    },
+    "version": "2.8.5",
+    "keywords": [
+        "css",
+        "sass",
+        "scss",
+        "responsive",
+        "front-end",
+        "framework",
+        "web"
+    ],
+    "homepage": "http://kotsh.me",
+    "license": "MIT",
+    "author": "Khalid Almallahi",
+    "bugs": {
+        "url": "https://github.com/KhalidAlmallahi/kotsh-css/"
+    },
+    "scripts": {
+        "icons": "icon-font-generator src/icons/*.svg -o dist/fonts -j false --html false --name icons -p icon",
+        "css": "node-sass --include-path src/scss src/scss/kotsh.scss dist/css/kotsh.min.css --output-style compressed",
+        "css-grid": "node-sass --include-path src/scss src/scss/kotsh.grid.scss dist/css/kotsh.grid.min.css --output-style compressed",
+        "watch-css": "nodemon -e scss -x \"npm-run-all --parallel css css-grid\"",
+        "scss:lint": "stylelint src/**/*.scss"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "node-sass": "^4.5.3",
+        "npm-run-all": "^4.1.1",
+        "nodemon": "^1.11.0",
+        "icon-font-generator": "^1.1.1",
+        "stylelint": "^8.2.0",
+        "stylelint-config-recommended-scss": "^2.0.0",
+        "stylelint-scss": "^2.1.0"
+    },
+    "ignore": [
+        "demo"
+    ]
+}

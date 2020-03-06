@@ -1,0 +1,23 @@
+{
+    "name": "kotsh-css",
+    "description": "Kotsh is a free and very simple CSS Framework for developing responsive & modern websites.",
+    "main": "dist/css/framy.min.css",
+    "version": "1.0.0",
+    "keywords": [
+        "css",
+        "sass",
+        "scss",
+        "responsive",
+        "front-end",
+        "framework",
+        "web"
+    ],
+    "homepage": "http://abukotsh.me",
+    "license": "MIT",
+    "authors": [
+        "Khalid Almallahi"
+    ],
+    "ignore": [
+        "demo"
+    ]
+}
