@@ -3,8 +3,8 @@
 Kotsh is a collection of basic components, you will need in every web project to develop responsive & modern interfaces and websites.
 
 * __Website__ http://www.abukotsh.me
-* __Documentation__ http://www.abukotsh.me/#/docs
-* __Demo__ http://demo.abukotsh.me
+* __Documentation__ http://www.abukotsh.me/kotsh-css/#/docs
+* __Demo__ http://abukotsh.me/kotsh-css/demo
 
 ## How to use
 
